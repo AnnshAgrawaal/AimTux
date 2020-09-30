@@ -7,9 +7,7 @@ Want to chat or play with other AimTux users? Join us on Gitter!
 ![warning](https://i.imgur.com/TxCC3c4.png) __This hack is detected.__
 
 ## What is AimTux?
-
 AimTux is a fully featured internal hack for *CounterStrike : Global Offensive* written in C++.
-
 
 ## Compiling
 
@@ -31,6 +29,7 @@ __Arch:__
 ```bash
 sudo pacman -S base-devel cmake gdb git sdl2
 ```
+
 __Fedora:__
 ```bash
 sudo dnf install cmake gcc-c++ gdb git libstdc++-static mesa-libGL-devel SDL2-devel zlib-devel
@@ -41,7 +40,6 @@ __Gentoo:__
 sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 ```
 
-
 #### Download AimTux:
 
 ```bash
@@ -51,7 +49,6 @@ git clone --recursive https://github.com/AimTuxOfficial/AimTux
 ```bash
 cd AimTux
 ```
-
 
 #### Generate a makefile
 
